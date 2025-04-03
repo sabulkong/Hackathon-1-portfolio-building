@@ -4,101 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Luxury Web Developer Portfolio showcasing achievements, education, and projects">
-    <title>Valentine Sabulkong Web Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Valentine Sabulkong/luxury Web Developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <div class="logo">
+            Valentine Sabulkong
+            <span style="font-size: 14px; display: block; font-weight: normal; color: #ffcccb;">Luxury Web Developer</span>
+        </div>
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
-                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-
-    <section id="intro" class="intro-section">
-        <div class="content">
-            <h1>Hi, I'm Valentine Sabulkong</h1>
-            <p>I am a passionate web developer specializing in luxury websites that blend aesthetics with functionality. I craft bespoke digital experiences for those who demand excellence.</p>
-            <p>Driven by a love for creating beautiful, user-centric designs, I thrive on bringing ideas to life through clean, responsive code and innovative design.</p>
-        </div>
-    </section>
-    <section id="about" class="about-section">
-        <div class="content">
+    <main class="single-column">
+        <section id="intro" class="intro-section">
+            <div class="content">
+                <h1>Welcome to My Luxury Portfolio</h1>
+                <p>I specialize in crafting bespoke digital experiences for high-end clients.</p>
+                <button onclick="window.location.href='#contact'">Get in Touch</button>
+            </div>
+        </section>
+        <section id="about" class="about-section">
             <h2>About Me</h2>
-            <p>With a deep interest in both design and development, I focus on creating seamless, visually striking websites that offer a smooth user experience. I take pride in my ability to merge creativity with technical proficiency, ensuring every project exceeds client expectations.</p>
-            <p>From e-commerce platforms to interactive portfolios, I craft customized digital solutions for high-end clients who want their web presence to stand out.</p>
-        </div>
-    </section>
-    <section id="skills" class="skills-section">
-        <div class="content">
-            <h2>My Skills</h2>
-            <ul>
-                <li>HTML5, CSS3, JavaScript</li>
-                <li>Responsive Web Design</li>
-                <li>UI/UX Design</li>
-                <li>Node.js, Express</li>
-                <li>SEO Optimization</li>
-            </ul>
-        </div>
-    </section>
-    <section id="achievements" class="achievements-section">
-        <div class="content">
-            <h2>Achievements</h2>
-            <ul>
-                <li>Winner of the 2020 Web Excellence Award for Best E-Commerce Site</li>
-                <li>Featured in "Top 10 Luxury Web Developers" by Design Magazine</li>
-                <li>Speaker at the 2025 International Web Development Conference</li>
-            </ul>
-        </div>
-    <section id="education" class="education-section">
-        <div class="content">
-            <h2>Education</h2>
-            <p><strong>Bachelor of Development And Strategic Studies With IT</strong> - Maseno University (2017-2021)</p>
-            <p>Specialized in web development, UI/UX design, and software engineering. Graduated with honors and recognized for leadership in student tech initiatives.</p>
-            <p><a href="cv.pdf.doc" download>Download My CV</a></p>
-        </div>
-    </section>
-    <section id="projects" class="projects-section">
-        <div class="content">
-            <h2>My Projects</h2>
-            <div class="project">
-                <h3>Project One - Luxury E-Commerce Website</h3>
-                <p>A sleek and responsive e-commerce platform for a high-end fashion brand, offering an intuitive shopping experience.</p>
-                <a href="https://www.example.com" target="_blank">View Project</a>
+            <div class="content">
+                <img src="about-me.jpg" alt="my pic" />
+                <div class="text">
+                    <p>With a deep interest in both design and development, I focus on creating seamless, visually striking websites that offer a smooth user experience. I take pride in my ability to merge creativity with technical proficiency, ensuring every project exceeds client expectations.</p>
+                    <p>From e-commerce platforms to interactive portfolios, I craft customized digital solutions for high-end clients who want their web presence to stand out.</p>
+                </div>
             </div>
-            <div class="project">
-                <h3>Project Two - Custom Portfolio</h3>
-                <p>A dynamic portfolio website featuring interactive animations and a personalized design tailored to the client’s branding.</p>
-                <a href="https://www.example.com" target="_blank">View Project</a>
+        </section>
+        <section id="skills" class="skills-section">
+            <div class="content">
+                <h2>My Skills</h2>
+                <ul>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>Responsive Web Design</li>
+                    <li>UI/UX Design</li>
+                    <li>Node.js, Express</li>
+                    <li>SEO Optimization</li>
+                </ul>
             </div>
-        </div>
-    </section>
-    <section id="contact" class="contact-section">
-        <div class="content">
-            <h2>Contact Me</h2>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+        </section>
+        <section id="achievements" class="achievements-section">
+            <div class="content">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Winner of the 2020 Web Excellence Award for Best E-Commerce Site</li>
+                    <li>Featured in "Top 10 Luxury Web Developers" by Design Magazine</li>
+                    <li>Speaker at the 2025 International Web Development Conference</li>
+                </ul>
+            </div>
+        </section>
+        <section id="education" class="education-section">
+            <div class="content">
+                <h2>Education</h2>
+                <p><strong>Bachelor of Development And Strategic Studies With IT</strong> - Maseno University (2017-2021)</p>
+                <p>Specialized in web development, UI/UX design, and software engineering. Graduated with honors and recognized for leadership in student tech initiatives.</p>
+                <p><a href="cv.pdf.doc" download>Download My CV</a></p>
+            </div>
+        </section>
+        <section id="projects" class="projects-section">
+            <div class="content">
+                <h2>My Projects</h2>
+                <div class="project">
+                    <img src="project1.jpg" alt="Luxury E-Commerce Website" />
+                    <h3>Luxury E-Commerce Website</h3>
+                    <p>A sleek and responsive platform for a high-end fashion brand.</p>
+                    <a href="https://www.example.com" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Custom Portfolio" />
+                    <h3>Custom Portfolio</h3>
+                    <p>An interactive portfolio with animations and personalized design.</p>
+                    <a href="https://www.example.com" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
 
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="footer-content">
             <p>Connect with me: <a href="https://www.linkedin.com/in/valentine-jerono-1b8802359/" target="_blank">LinkedIn</a> | <a href="https://github.com/sabulkong" target="_blank">GitHub</a></p>
             <p>&copy; 2025 Sabulkong. All rights reserved.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
